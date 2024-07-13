@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="container-image">
+            <img src="./C.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>post title:will be here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, alias fugiat obcaecati, tempora facere quibusdam impedit velit facilis ullam, itaque commodi at non saepe accusamus iste. Debitis, molestias. Error, natus!</p>
+            <button>See more</button>
+        </div>
+        
+    </section>
+
+    <section class="container">
+        <div class="container-image">
+            <img src="./C.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>post title:will be here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, alias fugiat obcaecati, tempora facere quibusdam impedit velit facilis ullam, itaque commodi at non saepe accusamus iste. Debitis, molestias. Error, natus!</p>
+            <button>See more</button>
+        </div>
+        
+    </section>
+    
+</body>
+</html>

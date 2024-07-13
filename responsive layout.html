@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first-container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .first-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .second-container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .second-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .second-container-image img{
+            width: 400px;
+        }
+
+        @media screen and (max-width:576px) {
+            .first-container{
+                flex-direction: column;
+            }
+            .second-container{
+                flex-direction: column-reverse;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="first-container">
+        <div class="container-image">
+            <img src="./C.jpg" alt="">
+        </div>
+        <div class="first-content">
+            <h3>post title:will be here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis blanditiis cumque pariatur eius est illum ratione dolorem eveniet, veritatis dicta necessitatibus natus iste consequuntur at temporibus maiores! Vel ratione dicta expedita dignissimos rerum in? Consequatur in mollitia, illum nisi at necessitatibus corporis porro. Fugiat excepturi, facilis, illum nihil expedita est quidem cumque totam nemo enim natus sint harum doloribus error nisi in, eaque ratione facere asperiores. Minus animi maxime vel officiis molestiae ipsam quasi, nobis, dicta reprehenderit quisquam, vitae distinctio sit? Fuga natus labore eligendi nulla sequi sunt sit, quis ratione amet qui aspernatur quam saepe repudiandae totam? Reiciendis, accusamus!</p>
+            <button>See more</button>
+        </div>
+        
+    </section>
+
+    <section class="second-container">
+        
+        <div class="second-content">
+            <h3>post title:will be here</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod minima consectetur labore quia soluta corrupti aspernatur ea est iure. Dolore dicta est aut expedita corrupti, suscipit doloremque quod reiciendis nesciunt facere, eligendi officia asperiores eaque quia impedit iusto, sequi consectetur placeat quidem nihil. Excepturi illo facere harum, ex iusto vel. Corrupti, illo rerum hic perferendis recusandae vitae. Incidunt modi temporibus impedit? Eaque, labore fuga voluptatem reprehenderit corporis tempora quis impedit inventore! Repellendus ab laboriosam similique voluptates tenetur. Molestiae aperiam accusantium doloribus vitae pariatur rem laboriosam assumenda, rerum doloremque voluptatem magnam eum eaque harum recusandae ex nulla! Facilis tempore consequuntur nisi?</p>
+            <button>See more</button>
+        </div>
+        <div class="second-container-image">
+            <img src="./B.jpg" alt="">
+        </div>
+        
+    </section>
+    
+</body>
+</html>
